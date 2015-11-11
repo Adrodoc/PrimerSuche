@@ -1,8 +1,18 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
 
+ext.productName = project.name
 version = '1.1.0'
 
 jar {
-	manifest { attributes('Main-Class':'de.adrodoc55.bio.primer.suche.MainFrame') }
+	manifest {
+		attributes(
+			'Created-By':				'Adrodoc55 (adrodoc55@googlemail.com)',
+			'Specification-Title':		productName,
+			'Specification-Version':	version,
+			'Implementation-Title':		productName,
+			'Implementation-Version':	version,
+			'Main-Class':	'de.adrodoc55.bio.primer.suche.MainFrame'
+			)
+	}
 }
