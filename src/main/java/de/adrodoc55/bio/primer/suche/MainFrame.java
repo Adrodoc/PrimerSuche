@@ -151,7 +151,7 @@ public class MainFrame extends JFrame {
         if (sequenceTextArea == null) {
             sequenceTextArea = new JTextArea();
             sequenceTextArea.setColumns(80);
-            sequenceTextArea.setRows(10);
+            sequenceTextArea.setRows(20);
             sequenceTextArea.setLineWrap(true);
         }
         return sequenceTextArea;
