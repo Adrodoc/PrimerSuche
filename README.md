@@ -1,5 +1,5 @@
 # PrimerSuche
-Einfaches Programm um Primer in DNA-Sequencen zu finden.
+Einfaches Java Programm um Primer in DNA-Sequencen zu finden.
 
 Um dieses Projekt in Eclipse nutzen zu können, muss nach dem Checkout
 "gradle eclipse" auf der Kommandozeile ausgeführt werden.
